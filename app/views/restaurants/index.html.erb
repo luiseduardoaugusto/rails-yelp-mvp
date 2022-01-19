@@ -1,0 +1,7 @@
+<h1>esto es una prueba</h1>
+
+<ul>
+<% @restaurant.each do |restaurante| %>
+<li><%= "#{restaurante.name} #{restaurante.phone_number}" %></li>
+<% end %>
+</ul>
